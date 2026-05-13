@@ -37,7 +37,7 @@
 
   .hero-title {
     font-size: 22pt;
-    color: #1b4332 !important;
+    color: #0d2b1d !important;
     margin-bottom: 0.2rem;
   }
 
@@ -50,7 +50,7 @@
 
   .hero-subtitle {
     font-size: 12pt;
-    color: #2d6a4f !important;
+    color: #1a4731 !important;
     margin-bottom: 0.5rem;
   }
 
@@ -70,18 +70,19 @@
 
   .section-title {
     font-size: 14pt;
-    color: #1b4332 !important;
+    color: #0d2b1d !important;
     text-align: left;
     padding-bottom: 0.3rem;
     margin-bottom: 1rem;
   }
 
   .section-title::after {
-    background: #2d6a4f !important;
+    background: #1a4731 !important;
   }
 
   /* Force all job details visible */
-  .job-details {
+  .job-details,
+  .job-details--open {
     display: block !important;
   }
 
@@ -94,7 +95,7 @@
 
   .job-header {
     box-shadow: none !important;
-    border-left: 3px solid #2d6a4f !important;
+    border-left: 3px solid #1a4731 !important;
     padding: 0.5rem 0.75rem;
     cursor: default;
   }
@@ -119,9 +120,9 @@
 
   /* Skill tags */
   .skill-tag {
-    background: #e8f5e9 !important;
-    color: #1b4332 !important;
-    border: 1px solid #2d6a4f;
+    background: #e2ede6 !important;
+    color: #0d2b1d !important;
+    border: 1px solid #1a4731;
     font-size: 8pt;
     padding: 0.2rem 0.5rem;
   }
@@ -129,7 +130,7 @@
   .badge {
     font-size: 8pt;
     padding: 0.2rem 0.5rem;
-    border: 1px solid #2d6a4f;
+    border: 1px solid #1a4731;
   }
 
   /* Skills grid to 2 columns on print */
@@ -140,7 +141,7 @@
 
   .skill-category {
     box-shadow: none !important;
-    border-top: 2px solid #2d6a4f !important;
+    border-top: 2px solid #1a4731 !important;
     padding: 0.75rem !important;
   }
 

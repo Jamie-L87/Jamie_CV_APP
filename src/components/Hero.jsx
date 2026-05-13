@@ -1,10 +1,6 @@
 import React from 'react';
 import '../styles/Hero.css';
 
-const handleDownload = () => {
-  window.print();
-};
-
 export default function Hero() {
   return (
     <div className="hero">
@@ -20,7 +16,7 @@ export default function Hero() {
         <div className="hero-contact">
           <a href="mailto:ladd665@gmail.com?subject=Let's Connect&body=Hi Jamie," className="contact-link">Email</a>
           <a href="https://www.linkedin.com/in/jamie-ladd-54631797/" target="_blank" rel="noopener noreferrer" className="contact-link">LinkedIn</a>
-          <button onClick={handleDownload} className="contact-link download-btn">Download CV</button>
+          <a href="#" onClick={(e) => { e.preventDefault(); window.print(); }} className="contact-link download-btn">Download CV</a>
         </div>
       </div>
     </div>

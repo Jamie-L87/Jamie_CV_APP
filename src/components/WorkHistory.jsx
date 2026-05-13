@@ -111,7 +111,7 @@ export default function WorkHistory() {
                 </div>
 
                 {/* Always render job-details; CSS shows all on print */}
-                <div className="job-details" style={{ display: expandedId === job.id ? 'block' : 'none' }}>
+                <div className={`job-details${expandedId === job.id ? ' job-details--open' : ''}`}>
                   <p className="job-description">{job.description}</p>
                   <div className="responsibilities">
                     <h4>Key Responsibilities</h4>
