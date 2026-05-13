@@ -10,14 +10,20 @@ const jobs = [
     period: 'February 2022 - Present',
     description: 'First PM hired by Herman Miller for an IT system in the UK',
     responsibilities: [
-      'Define product strategy and vision for EOS Cloud platform',
-      'Oversee sprint-to-sprint activities and cross-functional delivery team',
-      'Facilitate workshops and establish new working practices (Ways of Working)',
-      'Manage SCRUM and QA activities by proxy',
-      'Collaborate with dealership network stakeholders',
-      'Implement processes for defect resolution and workflow management'
+      'Define product strategy and vision for EOS Cloud platform aligned with business objectives',
+      'Conduct requirements elicitation with stakeholders across dealerships and internal teams',
+      'Analyze business processes and identify optimization opportunities for efficiency gains',
+      'Create detailed user stories and acceptance criteria for development team',
+      'Oversee sprint-to-sprint activities and manage cross-functional delivery team',
+      'Facilitate workshops for requirements gathering, process mapping, and solution design',
+      'Establish new working practices (Ways of Working) and agile methodologies',
+      'Perform impact analysis and sizing of new features and enhancements',
+      'Manage SCRUM and QA activities by proxy, ensuring quality standards',
+      'Collaborate extensively with dealership network stakeholders to understand needs',
+      'Document business rules, system workflows, and process improvements',
+      'Implement processes for defect resolution, change management, and workflow optimization'
     ],
-    highlights: ['Strategic Leadership', 'Agile', 'Stakeholder Management']
+    highlights: ['Strategic Leadership', 'Business Analysis', 'Requirements Gathering', 'Stakeholder Management', 'Agile']
   },
   {
     id: 2,
