@@ -4,11 +4,11 @@ import '../styles/WorkHistory.css';
 const jobs = [
   {
     id: 1,
-    title: 'Digital Project Manager',
+    title: 'Digital Product Manager',
     company: 'Herman Miller',
     location: 'UK (Remote)',
     period: 'February 2022, Present',
-    description: 'First Digital Project Manager hired by Herman Miller for EOS Cloud, used internationally across the UK, Europe, Asia, India, and Australia',
+    description: 'First Digital Product Manager hired by Herman Miller for EOS Cloud, used internationally across the UK, Europe, Asia, India, and Australia',
     responsibilities: [
       'Define product strategy and vision for EOS Cloud platform aligned with business objectives',
       'Conduct requirements elicitation with stakeholders across dealerships and internal teams',
