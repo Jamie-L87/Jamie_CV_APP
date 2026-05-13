@@ -10,8 +10,7 @@ export default function Hero() {
         <p className="hero-subtitle">Digital Product Manager | Product Owner | Business Analysis</p>
         <p className="hero-description">
           Results-driven Digital Product Manager with 13+ years of experience leading digital transformations, 
-          building high-performing teams, and delivering innovative solutions across retail, 
-          and enterprise software.
+          building high-performing teams, and delivering innovative solutions across retail, mobile apps, B2B and enterprise software.
         </p>
         <div className="hero-contact">
           <a href="mailto:ladd665@gmail.com?subject=Let's Connect&body=Hi Jamie," className="contact-link">Email</a>
