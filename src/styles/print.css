@@ -1,0 +1,176 @@
+@media print {
+  /* Page setup */
+  @page {
+    size: A4;
+    margin: 1.2cm 1.5cm;
+  }
+
+  /* Hide interactive / decorative elements */
+  .hero-contact,
+  .expand-icon,
+  .timeline::before,
+  .timeline-marker,
+  footer {
+    display: none !important;
+  }
+
+  /* Reset backgrounds and colours for print */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-size: 11pt;
+    color: #000;
+    background: #fff;
+  }
+
+  /* Hero: flatten the gradient, left-align */
+  .hero {
+    background: #fff !important;
+    color: #000 !important;
+    padding: 1rem 0 0.5rem 0;
+    min-height: unset;
+    text-align: left;
+  }
+
+  .hero-title {
+    font-size: 22pt;
+    color: #1b4332 !important;
+    margin-bottom: 0.2rem;
+  }
+
+  .hero-meta {
+    font-size: 10pt;
+    color: #333 !important;
+    opacity: 1;
+    margin-bottom: 0.3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 12pt;
+    color: #2d6a4f !important;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-description {
+    font-size: 10pt;
+    color: #333 !important;
+    opacity: 1;
+    max-width: 100%;
+  }
+
+  /* Sections */
+  section {
+    padding: 0.8rem 0 !important;
+    background: #fff !important;
+    page-break-inside: avoid;
+  }
+
+  .section-title {
+    font-size: 14pt;
+    color: #1b4332 !important;
+    text-align: left;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .section-title::after {
+    background: #2d6a4f !important;
+  }
+
+  /* Force all job details visible */
+  .job-details {
+    display: block !important;
+  }
+
+  /* Timeline items */
+  .timeline-item {
+    padding-left: 0 !important;
+    margin-bottom: 1rem;
+    page-break-inside: avoid;
+  }
+
+  .job-header {
+    box-shadow: none !important;
+    border-left: 3px solid #2d6a4f !important;
+    padding: 0.5rem 0.75rem;
+    cursor: default;
+  }
+
+  .job-title {
+    font-size: 12pt;
+  }
+
+  .job-company {
+    font-size: 10pt;
+  }
+
+  .job-period {
+    font-size: 9pt;
+  }
+
+  .responsibilities li,
+  .job-description {
+    font-size: 9.5pt;
+    color: #333 !important;
+  }
+
+  /* Skill tags */
+  .skill-tag {
+    background: #e8f5e9 !important;
+    color: #1b4332 !important;
+    border: 1px solid #2d6a4f;
+    font-size: 8pt;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .badge {
+    font-size: 8pt;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid #2d6a4f;
+  }
+
+  /* Skills grid to 2 columns on print */
+  .skills-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0.5rem !important;
+  }
+
+  .skill-category {
+    box-shadow: none !important;
+    border-top: 2px solid #2d6a4f !important;
+    padding: 0.75rem !important;
+  }
+
+  /* Education */
+  .education-item {
+    box-shadow: none !important;
+    padding: 0.75rem !important;
+  }
+
+  /* Interests */
+  .interest-card {
+    box-shadow: none !important;
+    padding: 0.75rem !important;
+  }
+
+  /* Container width */
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  /* Avoid unwanted page breaks */
+  .about-content,
+  .education-item,
+  .interest-card,
+  .skill-category {
+    page-break-inside: avoid;
+  }
+}

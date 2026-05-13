@@ -110,24 +110,23 @@ export default function WorkHistory() {
                   </div>
                 </div>
 
-                {expandedId === job.id && (
-                  <div className="job-details">
-                    <p className="job-description">{job.description}</p>
-                    <div className="responsibilities">
-                      <h4>Key Responsibilities</h4>
-                      <ul>
-                        {job.responsibilities.map((resp, idx) => (
-                          <li key={idx}>{resp}</li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div className="highlights-badges">
-                      {job.highlights.map((highlight, idx) => (
-                        <span key={idx} className="badge">{highlight}</span>
+                {/* Always render job-details; CSS shows all on print */}
+                <div className="job-details" style={{ display: expandedId === job.id ? 'block' : 'none' }}>
+                  <p className="job-description">{job.description}</p>
+                  <div className="responsibilities">
+                    <h4>Key Responsibilities</h4>
+                    <ul>
+                      {job.responsibilities.map((resp, idx) => (
+                        <li key={idx}>{resp}</li>
                       ))}
-                    </div>
+                    </ul>
                   </div>
-                )}
+                  <div className="highlights-badges">
+                    {job.highlights.map((highlight, idx) => (
+                      <span key={idx} className="badge">{highlight}</span>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
           ))}

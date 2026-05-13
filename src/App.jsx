@@ -6,6 +6,7 @@ import Education from './components/Education'
 import Interests from './components/Interests'
 import './styles/global.css'
 import './styles/Footer.css'
+import './styles/print.css'
 
 function App() {
   return (
