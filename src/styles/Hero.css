@@ -67,6 +67,17 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.contact-location {
+  cursor: default;
+}
+
+.contact-location:hover {
+  transform: none;
+  box-shadow: none;
+  background: var(--white);
+  color: var(--secondary-color);
+}
+
 @keyframes fadeInDown {
   from {
     opacity: 0;

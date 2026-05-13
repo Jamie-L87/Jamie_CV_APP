@@ -15,6 +15,8 @@ export default function Hero() {
         <div className="hero-contact">
           <a href="mailto:ladd665@gmail.com?subject=Let's Connect&body=Hi Jamie," className="contact-link">Email</a>
           <a href="https://www.linkedin.com/in/jamie-ladd-54631797/" target="_blank" rel="noopener noreferrer" className="contact-link">LinkedIn</a>
+          <a href="tel:07702487636" className="contact-link">07702 487636</a>
+          <span className="contact-link contact-location">Calne, Wiltshire</span>
         </div>
       </div>
     </div>
