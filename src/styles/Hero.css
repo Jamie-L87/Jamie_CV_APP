@@ -74,6 +74,13 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.download-btn {
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  border: 2px solid var(--white);
+}
+
 @keyframes fadeInDown {
   from {
     opacity: 0;

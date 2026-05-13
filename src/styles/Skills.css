@@ -36,7 +36,7 @@
   padding: 0.5rem 1rem;
   background: linear-gradient(135deg, var(--secondary-color), #1b4332);
   color: var(--white);
-  border-radius: 20px;
+  border-radius: 4px;
   font-size: 0.9rem;
   font-weight: 500;
   transition: all 0.2s ease;

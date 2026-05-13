@@ -72,7 +72,6 @@ const jobs = [
     description: 'System testing and customer support roles',
     responsibilities: [
       'Reviewed and interpreted system design documents to inform test script creation and acceptance criteria',
-      'Managed SAP CRM global rollout testing across the UK, Ireland, USA, Canada, and Japan',
       'Raised detailed defect reports including steps to replication, and worked with technical teams and developers to resolve issues',
       'Validated defect fixes and reported findings clearly to wider project stakeholders',
       'Facilitated IPT and UAT sessions with business users across different cultures, backgrounds, and seniority levels',
@@ -80,7 +79,7 @@ const jobs = [
       'Supported Siebel CRM testing as part of contact centre operations',
       'Handled customer communications via phone and written channels, resolving queries and escalating where needed'
     ],
-    highlights: ['QA Testing', 'SAP CRM', 'Siebel CRM', 'UAT Management', 'Global Rollout', 'User Training']
+    highlights: ['QA Testing', 'SAP CRM', 'UAT Management', 'Global Rollout', 'User Training']
   }
 ];
 

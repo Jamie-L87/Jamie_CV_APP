@@ -1,6 +1,20 @@
 import React from 'react';
 import '../styles/Hero.css';
 
+const handleDownload = () => {
+  import('html2pdf.js').then((html2pdf) => {
+    const element = document.body;
+    const opt = {
+      margin: 0.5,
+      filename: 'Jamie_Ladd_CV.pdf',
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2, useCORS: true },
+      jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+    };
+    html2pdf.default().set(opt).from(element).save();
+  });
+};
+
 export default function Hero() {
   return (
     <div className="hero">
@@ -16,6 +30,7 @@ export default function Hero() {
         <div className="hero-contact">
           <a href="mailto:ladd665@gmail.com?subject=Let's Connect&body=Hi Jamie," className="contact-link">Email</a>
           <a href="https://www.linkedin.com/in/jamie-ladd-54631797/" target="_blank" rel="noopener noreferrer" className="contact-link">LinkedIn</a>
+          <button onClick={handleDownload} className="contact-link download-btn">Download CV</button>
         </div>
       </div>
     </div>
