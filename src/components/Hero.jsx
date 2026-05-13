@@ -13,7 +13,7 @@ export default function Hero() {
           and enterprise software.
         </p>
         <div className="hero-contact">
-          <a href="mailto:ladd665@gmail.com" className="contact-link">Email</a>
+          <a href="mailto:ladd665@gmail.com?subject=Let's Connect&body=Hi Jamie," className="contact-link">Email</a>
           <a href="https://www.linkedin.com/in/jamie-ladd-54631797/" target="_blank" rel="noopener noreferrer" className="contact-link">LinkedIn</a>
         </div>
       </div>
