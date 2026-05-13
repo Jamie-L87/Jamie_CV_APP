@@ -10,7 +10,7 @@ export default function Hero() {
         <p className="hero-subtitle">Digital Product Manager | Product Owner | Business Analysis</p>
         <p className="hero-description">
           Results-driven Digital Product Manager with 13+ years of experience leading digital transformations, 
-          building high-performing teams, and delivering innovative solutions across fintech, retail, 
+          building high-performing teams, and delivering innovative solutions across retail, 
           and enterprise software.
         </p>
         <div className="hero-contact">
