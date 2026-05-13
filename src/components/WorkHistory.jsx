@@ -4,11 +4,11 @@ import '../styles/WorkHistory.css';
 const jobs = [
   {
     id: 1,
-    title: 'Product Manager',
+    title: 'Digital Project Manager',
     company: 'Herman Miller',
     location: 'UK (Remote)',
-    period: 'February 2022 - Present',
-    description: 'First PM hired by Herman Miller for an IT system in the UK',
+    period: 'February 2022, Present',
+    description: 'First Digital Project Manager hired by Herman Miller for EOS Cloud, used internationally across the UK, Europe, Asia, India, and Australia',
     responsibilities: [
       'Define product strategy and vision for EOS Cloud platform aligned with business objectives',
       'Conduct requirements elicitation with stakeholders across dealerships and internal teams',
@@ -30,7 +30,7 @@ const jobs = [
     title: 'Senior Business Analyst',
     company: 'Dyson',
     location: 'Bristol',
-    period: 'November 2019 - September 2021',
+    period: 'November 2019, September 2021',
     description: 'Lead BA on Digital Experience Platform',
     responsibilities: [
       'Define strategic roadmap across Payments & Fraud and Owner Experience verticals',
@@ -41,10 +41,10 @@ const jobs = [
   },
   {
     id: 3,
-    title: 'Lead Business Analyst & Retail IT Manager',
+    title: 'Lead Business Analyst, Retail IT Manager',
     company: 'Dyson',
-    location: 'Malmesbury & Bristol',
-    period: 'September 2016 - September 2021',
+    location: 'Malmesbury, Bristol',
+    period: 'September 2016, September 2021',
     description: 'Led multiple major transformation initiatives',
     responsibilities: [
       'Dyson Link Mobile App: Re-platforming project improving app rating from 2/5 to 4.4/5 stars',
@@ -57,10 +57,10 @@ const jobs = [
   },
   {
     id: 4,
-    title: 'SAP CRM System Tester & Contact Centre Agent',
+    title: 'SAP CRM System Tester, Contact Centre Agent',
     company: 'Dyson',
     location: 'Bristol',
-    period: 'August 2013 - 2017',
+    period: 'August 2013, 2017',
     description: 'System testing and customer support roles',
     responsibilities: [
       'Reviewed system design documents and created test scripts',

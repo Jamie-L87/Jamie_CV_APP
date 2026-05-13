@@ -8,7 +8,7 @@ export default function About() {
         <h2 className="section-title">Professional Summary</h2>
         <div className="about-content">
           <p>
-            Product Manager at Herman Miller leading the EOS Cloud initiative – a strategic IT system for the UK market. 
+            Digital Project Manager at Herman Miller leading the EOS Cloud initiative, a strategic IT system used internationally across the UK, Europe, Asia, India, and Australia.
             Proven ability to define product vision, establish agile practices, and lead cross-functional teams to deliver 
             high-impact solutions.
           </p>

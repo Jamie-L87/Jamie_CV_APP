@@ -6,16 +6,15 @@ export default function Hero() {
     <div className="hero">
       <div className="hero-content">
         <h1 className="hero-title">Jamie Ladd</h1>
-        <p className="hero-subtitle">Product Manager | Product Owner | Digital Strategy</p>
+        <p className="hero-subtitle">Digital Project Manager | Product Owner | Business Analysis</p>
         <p className="hero-description">
           Results-driven Product Manager with 13+ years of experience leading digital transformations, 
           building high-performing teams, and delivering innovative solutions across fintech, retail, 
           and enterprise software.
         </p>
         <div className="hero-contact">
-          <a href="mailto:jamie@example.com" className="contact-link">Email</a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="contact-link">LinkedIn</a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="contact-link">GitHub</a>
+          <a href="mailto:ladd665@gmail.com" className="contact-link">Email</a>
+          <a href="https://www.linkedin.com/in/jamie-ladd-54631797/" target="_blank" rel="noopener noreferrer" className="contact-link">LinkedIn</a>
         </div>
       </div>
     </div>
