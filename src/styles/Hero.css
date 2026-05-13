@@ -22,6 +22,13 @@
   letter-spacing: -1px;
 }
 
+.hero-meta {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
 .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 300;
@@ -65,17 +72,6 @@
   color: var(--white);
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.contact-location {
-  cursor: default;
-}
-
-.contact-location:hover {
-  transform: none;
-  box-shadow: none;
-  background: var(--white);
-  color: var(--secondary-color);
 }
 
 @keyframes fadeInDown {
