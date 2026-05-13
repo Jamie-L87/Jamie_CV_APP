@@ -33,11 +33,14 @@ const jobs = [
     period: 'November 2019, September 2021',
     description: 'Lead BA on Digital Experience Platform',
     responsibilities: [
-      'Define strategic roadmap across Payments & Fraud and Owner Experience verticals',
-      'Qualify and size new demand with POs, architects, QA managers, and release teams',
-      'Gather high-level requirements and assess impact and complexity'
+      'Worked directly with Product Owners to define a strategic roadmap across two key DXPE verticals: Payments & Fraud, and Owner Experience',
+      'Qualified and sized new demand working collaboratively with POs, system architects, QA managers, and release teams',
+      'Assessed the impact, complexity, and sizing of new demand to support informed prioritisation decisions',
+      'Gathered high-level requirements for enhancements across Dyson\'s digital experience platform',
+      'Translated stakeholder needs into actionable development requirements for cross-functional delivery teams',
+      'Maintained close alignment with the delivery lead and third-party partners to ensure smooth execution'
     ],
-    highlights: ['Strategic Planning', 'Requirements Analysis', 'Leadership']
+    highlights: ['Strategic Planning', 'Requirements Analysis', 'Stakeholder Engagement', 'Leadership', 'Agile']
   },
   {
     id: 3,
@@ -47,13 +50,18 @@ const jobs = [
     period: 'September 2016, September 2021',
     description: 'Led multiple major transformation initiatives',
     responsibilities: [
-      'Dyson Link Mobile App: Re-platforming project improving app rating from 2/5 to 4.4/5 stars',
-      'Dyson Retail Store Rollout: Enabled 10x store opening growth, leading to 30 global openings in 2018',
-      'Digital Experience Platform: Built BA team from 4 to 16, managed 12 new hires and contractors',
-      'Transitioned teams from waterfall to full agile SCRUM methodology',
-      'Created "Playbook" for standardized ePos solution deployment'
+      'Built and scaled the DXP BA team from 4 to 16, recruiting 12 BAs across permanent, contractor, and in-market roles',
+      'Identified individual skills and placed team members in verticals and projects that best utilised their expertise',
+      'Worked with lead POs and stakeholders to drive vision and strategy for Dyson\'s major market websites',
+      'Led full agile transformation, moving the team from a heavily waterfall approach to end-to-end SCRUM delivery',
+      'Took ownership of the Retail IT BA team, covering all store IT from hardware and infrastructure to bespoke ePos solutions',
+      'Researched legal and fiscal requirements across international markets to ensure reusable, scalable solutions',
+      'Produced a comprehensive Playbook with commercial, group retail, and in-market teams, baselining all standard ePos functionality',
+      'Enabled 10x store opening growth through standardised processes, delivering 30 global store openings in 2018',
+      'Built a BA team of 2 and collaborated with UX, UI, and development teams to re-platform the Dyson Link mobile app',
+      'Improved Dyson Link app rating from 2/5 to 4.4/5 stars through strategic requirements definition and stakeholder alignment'
     ],
-    highlights: ['Team Building', 'Mobile Development', 'Retail Operations', 'Agile Transformation']
+    highlights: ['Team Building', 'Agile Transformation', 'Mobile Development', 'Retail Operations', 'Global Rollout']
   },
   {
     id: 4,
@@ -63,13 +71,16 @@ const jobs = [
     period: 'August 2013, 2017',
     description: 'System testing and customer support roles',
     responsibilities: [
-      'Reviewed system design documents and created test scripts',
-      'Managed SAP CRM global rollout testing and UAT sessions',
-      'Created web-based training materials for diverse audiences',
-      'Raised and validated defects with technical teams',
-      'Supported contact centre operations via phone and written communications'
+      'Reviewed and interpreted system design documents to inform test script creation and acceptance criteria',
+      'Managed SAP CRM global rollout testing across the UK, Ireland, USA, Canada, and Japan',
+      'Raised detailed defect reports including steps to replication, and worked with technical teams and developers to resolve issues',
+      'Validated defect fixes and reported findings clearly to wider project stakeholders',
+      'Facilitated IPT and UAT sessions with business users across different cultures, backgrounds, and seniority levels',
+      'Created and delivered web-based training materials to large, diverse audiences globally',
+      'Supported Siebel CRM testing as part of contact centre operations',
+      'Handled customer communications via phone and written channels, resolving queries and escalating where needed'
     ],
-    highlights: ['QA Testing', 'SAP CRM', 'User Training', 'Global Rollout']
+    highlights: ['QA Testing', 'SAP CRM', 'Siebel CRM', 'UAT Management', 'Global Rollout', 'User Training']
   }
 ];
 
