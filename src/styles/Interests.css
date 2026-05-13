@@ -1,0 +1,47 @@
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.interest-card {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border-top: 3px solid var(--secondary-color);
+}
+
+.interest-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px);
+}
+
+.interest-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 0.8rem;
+}
+
+.interest-description {
+  color: var(--light-text);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .interests-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .interest-card {
+    padding: 1.5rem;
+  }
+
+  .interest-title {
+    font-size: 1.1rem;
+  }
+}

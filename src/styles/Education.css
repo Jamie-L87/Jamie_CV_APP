@@ -1,0 +1,79 @@
+.education-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.education-item {
+  background: var(--white);
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--secondary-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.education-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateX(5px);
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.school-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.edu-period {
+  font-size: 0.95rem;
+  color: var(--secondary-color);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.edu-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.edu-details li {
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  position: relative;
+  color: var(--light-text);
+}
+
+.edu-details li::before {
+  content: '◉';
+  position: absolute;
+  left: 0;
+  color: var(--secondary-color);
+  font-size: 0.7rem;
+  top: 0.6rem;
+}
+
+@media (max-width: 768px) {
+  .education-item {
+    padding: 1.5rem;
+  }
+
+  .education-header {
+    flex-direction: column;
+  }
+
+  .school-name {
+    font-size: 1.1rem;
+  }
+
+  .edu-period {
+    font-size: 0.85rem;
+  }
+}
