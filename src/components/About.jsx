@@ -21,6 +21,7 @@ export default function About() {
             <li>Scaled retail IT operations by 10x, enabling 30 global store openings in 2018</li>
             <li>Built and stabilized a BA team from 4 to 16 members across multiple verticals</li>
             <li>Led digital experience platform initiatives serving millions of users globally</li>
+            <li>Implemented SAP CRM globally across the UK, Ireland, USA, Canada, and Japan</li>
           </ul>
         </div>
       </div>
