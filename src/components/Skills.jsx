@@ -20,7 +20,7 @@ const skillCategories = [
   },
   {
     name: 'Systems & Technology',
-    skills: ['SAP CRM', 'Siebel CRM', 'E-POS Systems', 'Mobile Applications', 'Global IT Infrastructure']
+    skills: ['SAP CRM', 'SAP ERP', 'S4 Hana', 'Adobe Experience Manager', 'SalesForce CRM', 'Infor Syteline', 'ePOS Solutions', 'Microsoft Office', 'VS Code', 'SQL Server Management Studio']
   },
   {
     name: 'Quality Assurance',
