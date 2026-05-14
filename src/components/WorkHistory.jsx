@@ -54,7 +54,7 @@ const jobs = [
           'Worked directly with Product Owners to understand business and user requirements',
           'Fed requirements into cross-functional teams to establish best practices and define the path forward',
           'Helped build a reliable, intuitive, and modern mobile application enabling user account registration, product control, and data visualisations',
-          'Improved Dyson Link app rating from 2/5 to 4.4/5 stars through strategic requirements definition and stakeholder alignment'
+          'Improved Dyson Link app rating from 2/5 to 4.4/5 stars'
         ]
       },
       {
