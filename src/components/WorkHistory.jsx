@@ -128,10 +128,11 @@ const jobs = [
     responsibilities: [
       'Handled customer communications via phone and written channels, resolving queries and escalating where needed',
       'Spoke to the public across multiple channels, developing deep understanding of customer issues and needs',
+      'Supported Siebel CRM system testing as part of contact centre operations',
       'Provided feedback on system usability from an end-user perspective',
       'Developed communication and problem-solving skills across diverse customer base'
     ],
-    highlights: ['Customer Service', 'CRM Systems', 'Communication', 'Problem Solving', 'User Feedback']
+    highlights: ['Customer Service', 'Siebel CRM', 'System Testing', 'Communication', 'User Feedback']
   }
 ];
 
