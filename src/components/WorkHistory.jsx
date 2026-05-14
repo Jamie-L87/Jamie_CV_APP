@@ -58,7 +58,7 @@ const jobs = [
   },
   {
     id: 4,
-    title: 'Lead Business Analyst, Retail IT Manager',
+    title: 'Lead Business Analyst',
     company: 'Dyson',
     location: 'Malmesbury, Bristol',
     period: 'December 2017 - September 2018',
@@ -85,17 +85,35 @@ const jobs = [
       'Worked directly with Product Owners to understand business and user requirements',
       'Fed requirements into cross-functional teams to establish best practices and define the path forward',
       'Helped build a reliable, intuitive, and modern mobile application enabling user account registration, product control, and data visualisations',
-      'Improved Dyson Link app rating from 2/5 to 4.4/5 stars through strategic requirements definition and stakeholder alignment',
-      'Managed end-to-end agile delivery with continuous collaboration across teams'
+      'Improved Dyson Link app rating from 2/5 to 4.4/5 stars through strategic requirements definition and stakeholder alignment'
     ],
     highlights: ['Mobile Development', 'Team Building', 'Product Management', 'Agile', 'User Experience']
   },
   {
     id: 6,
-    title: 'SAP CRM System Tester',
+    title: 'Business Analyst',
     company: 'Dyson',
     location: 'Bristol',
     period: 'April 2014 - September 2016',
+    description: 'SAP CRM Global Rollout - Waterfall',
+    responsibilities: [
+      'Reviewed and understood as-is processes of new markets to inform SAP CRM implementation',
+      'Created GAP documents detailing functional aspects of new requirements and configurations',
+      'Performed component testing of new build items and integration testing including end-to-end system analysis',
+      'Documented issues and defects, validating fixes once resolved and preparing systems for UAT',
+      'Conducted UAT sessions with in-market users and stakeholders, managing approvals and sign-off documents',
+      'Designed, produced, and presented training material to end users across multiple markets',
+      'Provided on-site support during Go-live, warranty, and post-go-live support periods',
+      'Raised and managed new incidents from inception to fix delivery, validating fixes before production'
+    ],
+    highlights: ['SAP CRM', 'Waterfall', 'GAP Analysis', 'UAT Management', 'Global Rollout']
+  },
+  {
+    id: 7,
+    title: 'SAP CRM System Tester',
+    company: 'Dyson',
+    location: 'Bristol',
+    period: 'August 2013 - April 2014',
     description: 'SAP CRM Global Rollout',
     responsibilities: [
       'Reviewed and interpreted system design documents to inform test script creation and acceptance criteria',
@@ -108,16 +126,16 @@ const jobs = [
     highlights: ['QA Testing', 'SAP CRM', 'UAT Management', 'Global Rollout', 'Training']
   },
   {
-    id: 7,
+    id: 8,
     title: 'Contact Centre Agent',
     company: 'Dyson',
     location: 'Bristol',
-    period: 'August 2013 - April 2014',
+    period: 'August 2008 - August 2013',
     description: 'Siebel CRM System Testing',
     responsibilities: [
       'Handled customer communications via phone and written channels, resolving queries and escalating where needed',
+      'Spoke to the public across multiple channels, developing deep understanding of customer issues and needs',
       'Supported Siebel CRM system testing as part of contact centre operations',
-      'Gained first-hand understanding of customer needs and system functionality',
       'Provided feedback on system usability from an end-user perspective',
       'Developed communication and problem-solving skills across diverse customer base'
     ],
