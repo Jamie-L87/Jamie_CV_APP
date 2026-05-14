@@ -44,9 +44,20 @@ const jobs = [
     title: 'Lead Business Analyst',
     company: 'Dyson',
     location: 'Bristol',
-    period: 'September 2018 - November 2019',
-    description: 'Digital Experience Platform (Team Leadership) - Agile',
+    period: 'September 2016 - November 2019',
+    description: 'Multiple Leadership Initiatives - Agile & Waterfall',
     responsibilities: [
+      'Built a BA team of 2 and collaborated with UX, UI, and development teams to re-platform the Dyson Link mobile app',
+      'Worked directly with Product Owners to understand business and user requirements',
+      'Fed requirements into cross-functional teams to establish best practices and define the path forward',
+      'Helped build a reliable, intuitive, and modern mobile application enabling user account registration, product control, and data visualisations',
+      'Improved Dyson Link app rating from 2/5 to 4.4/5 stars through strategic requirements definition and stakeholder alignment',
+      'Took ownership of the Retail IT BA team, covering all store IT from hardware and infrastructure to bespoke ePos solutions',
+      'Enabled 10x store opening growth through standardised processes, delivering 30 global store openings in 2018',
+      'Researched legal and fiscal requirements across international markets to ensure reusable, scalable solutions',
+      'Empowered team to travel to market locations to understand local requirements and best practices',
+      'Produced comprehensive Playbook with commercial, group retail, and in-market teams, baselining all standard ePos functionality',
+      'Drove quicker and more efficient roll-out of standard solutions across new store locations globally',
       'Built and stabilised the DXP BA team from 4 to 16 members across permanent, contractor, and in-market roles',
       'Recruited 12 business analysts and identified individual skills, placing team members in verticals and projects that best utilised their expertise',
       'Worked with lead POs and stakeholders to drive vision and strategy for Dyson\'s major market websites',
@@ -54,43 +65,10 @@ const jobs = [
       'Skilled up BAs to perform end-to-end duties in agile delivery while preparing cross-functional and business teams for change',
       'Worked with BA manager, delivery lead, and third-party delivery partners to establish agile practices across the team'
     ],
-    highlights: ['Team Building', 'Agile Transformation', 'Recruitment', 'Leadership', 'Agile']
+    highlights: ['Mobile Development', 'Retail Operations', 'Team Leadership', 'Agile Transformation', 'Global Rollout']
   },
   {
     id: 4,
-    title: 'Lead Business Analyst',
-    company: 'Dyson',
-    location: 'Malmesbury, Bristol',
-    period: 'December 2017 - September 2018',
-    description: 'Dyson Retail Store Roll-out - Waterfall',
-    responsibilities: [
-      'Took ownership of the Retail IT BA team, covering all store IT from hardware and infrastructure to bespoke ePos solutions',
-      'Enabled 10x store opening growth through standardised processes, delivering 30 global store openings in 2018',
-      'Researched legal and fiscal requirements across international markets to ensure reusable, scalable solutions',
-      'Empowered team to travel to market locations to understand local requirements and best practices',
-      'Produced comprehensive Playbook with commercial, group retail, and in-market teams, baselining all standard ePos functionality',
-      'Drove quicker and more efficient roll-out of standard solutions across new store locations globally'
-    ],
-    highlights: ['Retail Operations', 'Team Leadership', 'Global Rollout', 'Process Optimisation', 'Waterfall']
-  },
-  {
-    id: 5,
-    title: 'Lead Business Analyst',
-    company: 'Dyson',
-    location: 'Bristol',
-    period: 'September 2016 - December 2017',
-    description: 'Dyson Link Mobile Application - Agile',
-    responsibilities: [
-      'Built a BA team of 2 and collaborated with UX, UI, and development teams to re-platform the Dyson Link mobile app',
-      'Worked directly with Product Owners to understand business and user requirements',
-      'Fed requirements into cross-functional teams to establish best practices and define the path forward',
-      'Helped build a reliable, intuitive, and modern mobile application enabling user account registration, product control, and data visualisations',
-      'Improved Dyson Link app rating from 2/5 to 4.4/5 stars through strategic requirements definition and stakeholder alignment'
-    ],
-    highlights: ['Mobile Development', 'Team Building', 'Product Management', 'Agile', 'User Experience']
-  },
-  {
-    id: 6,
     title: 'Business Analyst',
     company: 'Dyson',
     location: 'Bristol',
@@ -109,7 +87,7 @@ const jobs = [
     highlights: ['SAP CRM', 'Waterfall', 'GAP Analysis', 'UAT Management', 'Global Rollout']
   },
   {
-    id: 7,
+    id: 5,
     title: 'SAP CRM System Tester',
     company: 'Dyson',
     location: 'Bristol',
@@ -126,7 +104,7 @@ const jobs = [
     highlights: ['QA Testing', 'SAP CRM', 'UAT Management', 'Global Rollout', 'Training']
   },
   {
-    id: 8,
+    id: 6,
     title: 'Contact Centre Agent',
     company: 'Dyson',
     location: 'Bristol',
