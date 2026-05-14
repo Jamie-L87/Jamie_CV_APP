@@ -4,26 +4,23 @@ import '../styles/WorkHistory.css';
 const jobs = [
   {
     id: 1,
-    title: 'Digital Product Manager',
+    title: 'Product Manager',
     company: 'Herman Miller',
     location: 'UK (Remote)',
     period: 'February 2022 - Present',
-    description: 'First Digital Product Manager hired by Herman Miller for EOS Cloud, used internationally across the UK, Europe, Asia, India, and Australia',
+    description: 'EOS Cloud - Agile',
     responsibilities: [
       'Define product strategy and vision for EOS Cloud platform aligned with business objectives',
-      'Conduct requirements elicitation with stakeholders across dealerships and internal teams',
-      'Analyse business processes and identify optimisation opportunities for efficiency gains',
-      'Create detailed user stories and acceptance criteria for development team',
+      'Establish and maintain working backlog with clear prioritisation aligned to business goals',
       'Oversee sprint-to-sprint activities and manage cross-functional delivery team',
       'Facilitate workshops for requirements gathering, process mapping, and solution design',
-      'Establish new working practices (Ways of Working) and agile methodologies',
-      'Perform impact analysis and sizing of new features and enhancements',
+      'Establish new working practices (Ways of Working), workflows, and agile methodologies',
       'Manage SCRUM and QA activities by proxy, ensuring quality standards',
+      'Implement processes for defect resolution, change management, and workflow optimisation',
       'Collaborate extensively with dealership network stakeholders to understand needs',
-      'Document business rules, system workflows, and process improvements',
-      'Implement processes for defect resolution, change management, and workflow optimisation'
+      'Close partnership with external dealership partners across the UK, Europe, Asia, India, and Australia'
     ],
-    highlights: ['Strategic Leadership', 'Business Analysis', 'Requirements Gathering', 'Stakeholder Management', 'Agile']
+    highlights: ['Strategic Leadership', 'Product Vision', 'Agile', 'Cross-functional Leadership', 'Stakeholder Management']
   },
   {
     id: 2,
@@ -31,55 +28,100 @@ const jobs = [
     company: 'Dyson',
     location: 'Bristol',
     period: 'November 2019 - September 2021',
-    description: 'Lead BA on Digital Experience Platform',
+    description: 'Digital Experience Platform - Agile',
     responsibilities: [
-      'Worked directly with Product Owners to define a strategic roadmap across two key DXPE verticals: Payments & Fraud, and Owner Experience',
-      'Qualified and sized new demand working collaboratively with POs, system architects, QA managers, and release teams',
-      'Assessed the impact, complexity, and sizing of new demand to support informed prioritisation decisions',
-      'Gathered high-level requirements for enhancements across Dyson\'s digital experience platform',
-      'Translated stakeholder needs into actionable development requirements for cross-functional delivery teams',
-      'Maintained close alignment with the delivery lead and third-party partners to ensure smooth execution'
+      'Work directly with Product Owners to define a strategic roadmap across two key DXPE verticals: Payments & Fraud, and Owner Experience',
+      'Qualify and size new demand working collaboratively with POs, system architects, QA managers, and release teams',
+      'Assess impact, complexity, and sizing of new demand to support informed prioritisation decisions',
+      'Gather high-level requirements for enhancements across Dyson\'s digital experience platform',
+      'Translate stakeholder needs into actionable development requirements for cross-functional delivery teams',
+      'Maintain close alignment with delivery lead and third-party partners to ensure smooth execution'
     ],
     highlights: ['Strategic Planning', 'Requirements Analysis', 'Stakeholder Engagement', 'Leadership', 'Agile']
   },
   {
     id: 3,
-    title: 'Lead Business Analyst, Retail IT Manager',
+    title: 'Lead Business Analyst',
     company: 'Dyson',
-    location: 'Malmesbury, Bristol',
-    period: 'September 2016 - September 2021',
-    description: 'Led multiple major transformation initiatives',
+    location: 'Bristol',
+    period: 'September 2018 - November 2019',
+    description: 'Digital Experience Platform (Team Leadership) - Agile',
     responsibilities: [
-      'Built and scaled the DXP BA team from 4 to 16, recruiting 12 BAs across permanent, contractor, and in-market roles',
-      'Identified individual skills and placed team members in verticals and projects that best utilised their expertise',
+      'Built and stabilised the DXP BA team from 4 to 16 members across permanent, contractor, and in-market roles',
+      'Recruited 12 business analysts and identified individual skills, placing team members in verticals and projects that best utilised their expertise',
       'Worked with lead POs and stakeholders to drive vision and strategy for Dyson\'s major market websites',
-      'Led full agile transformation, moving the team from a heavily waterfall approach to end-to-end SCRUM delivery',
-      'Took ownership of the Retail IT BA team, covering all store IT from hardware and infrastructure to bespoke ePos solutions',
-      'Researched legal and fiscal requirements across international markets to ensure reusable, scalable solutions',
-      'Produced a comprehensive Playbook with commercial, group retail, and in-market teams, baselining all standard ePos functionality',
-      'Enabled 10x store opening growth through standardised processes, delivering 30 global store openings in 2018',
-      'Built a BA team of 2 and collaborated with UX, UI, and development teams to re-platform the Dyson Link mobile app',
-      'Improved Dyson Link app rating from 2/5 to 4.4/5 stars through strategic requirements definition and stakeholder alignment'
+      'Redefined ways of working, transitioning the team from heavily waterfall approach to end-to-end SCRUM delivery',
+      'Skilled up BAs to perform end-to-end duties in agile delivery while preparing cross-functional and business teams for change',
+      'Worked with BA manager, delivery lead, and third-party delivery partners to establish agile practices across the team'
     ],
-    highlights: ['Team Building', 'Agile Transformation', 'Mobile Development', 'Retail Operations', 'Global Rollout']
+    highlights: ['Team Building', 'Agile Transformation', 'Recruitment', 'Leadership', 'Agile']
   },
   {
     id: 4,
-    title: 'SAP CRM System Tester, Contact Centre Agent',
+    title: 'Lead Business Analyst, Retail IT Manager',
+    company: 'Dyson',
+    location: 'Malmesbury, Bristol',
+    period: 'December 2017 - September 2018',
+    description: 'Dyson Retail Store Roll-out - Waterfall',
+    responsibilities: [
+      'Took ownership of the Retail IT BA team, covering all store IT from hardware and infrastructure to bespoke ePos solutions',
+      'Enabled 10x store opening growth through standardised processes, delivering 30 global store openings in 2018',
+      'Researched legal and fiscal requirements across international markets to ensure reusable, scalable solutions',
+      'Empowered team to travel to market locations to understand local requirements and best practices',
+      'Produced comprehensive Playbook with commercial, group retail, and in-market teams, baselining all standard ePos functionality',
+      'Drove quicker and more efficient roll-out of standard solutions across new store locations globally'
+    ],
+    highlights: ['Retail Operations', 'Team Leadership', 'Global Rollout', 'Process Optimisation', 'Waterfall']
+  },
+  {
+    id: 5,
+    title: 'Lead Business Analyst',
     company: 'Dyson',
     location: 'Bristol',
-    period: 'August 2013 - 2017',
-    description: 'System testing and customer support roles',
+    period: 'September 2016 - December 2017',
+    description: 'Dyson Link Mobile Application - Agile',
+    responsibilities: [
+      'Built a BA team of 2 and collaborated with UX, UI, and development teams to re-platform the Dyson Link mobile app',
+      'Worked directly with Product Owners to understand business and user requirements',
+      'Fed requirements into cross-functional teams to establish best practices and define the path forward',
+      'Helped build a reliable, intuitive, and modern mobile application enabling user account registration, product control, and data visualisations',
+      'Improved Dyson Link app rating from 2/5 to 4.4/5 stars through strategic requirements definition and stakeholder alignment',
+      'Managed end-to-end agile delivery with continuous collaboration across teams'
+    ],
+    highlights: ['Mobile Development', 'Team Building', 'Product Management', 'Agile', 'User Experience']
+  },
+  {
+    id: 6,
+    title: 'SAP CRM System Tester',
+    company: 'Dyson',
+    location: 'Bristol',
+    period: 'April 2014 - September 2016',
+    description: 'SAP CRM Global Rollout',
     responsibilities: [
       'Reviewed and interpreted system design documents to inform test script creation and acceptance criteria',
+      'Created detailed test scripts and acceptance criteria based on system design specifications',
       'Raised detailed defect reports including steps to replication, and worked with technical teams and developers to resolve issues',
       'Validated defect fixes and reported findings clearly to wider project stakeholders',
       'Facilitated IPT and UAT sessions with business users across different cultures, backgrounds, and seniority levels',
-      'Created and delivered web-based training materials to large, diverse audiences globally',
-      'Supported Siebel CRM testing as part of contact centre operations',
-      'Handled customer communications via phone and written channels, resolving queries and escalating where needed'
+      'Created and delivered web-based training materials to large, diverse audiences globally'
     ],
-    highlights: ['QA Testing', 'SAP CRM', 'UAT Management', 'Global Rollout', 'User Training']
+    highlights: ['QA Testing', 'SAP CRM', 'UAT Management', 'Global Rollout', 'Training']
+  },
+  {
+    id: 7,
+    title: 'Contact Centre Agent',
+    company: 'Dyson',
+    location: 'Bristol',
+    period: 'August 2013 - April 2014',
+    description: 'Siebel CRM System Testing',
+    responsibilities: [
+      'Handled customer communications via phone and written channels, resolving queries and escalating where needed',
+      'Supported Siebel CRM system testing as part of contact centre operations',
+      'Gained first-hand understanding of customer needs and system functionality',
+      'Provided feedback on system usability from an end-user perspective',
+      'Developed communication and problem-solving skills across diverse customer base'
+    ],
+    highlights: ['Customer Service', 'Siebel CRM', 'System Testing', 'Communication', 'User Feedback']
   }
 ];
 
