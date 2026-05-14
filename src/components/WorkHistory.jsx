@@ -7,7 +7,7 @@ const jobs = [
     title: 'Digital Product Manager',
     company: 'Herman Miller',
     location: 'UK (Remote)',
-    period: 'February 2022, Present',
+    period: 'February 2022 - Present',
     description: 'First Digital Product Manager hired by Herman Miller for EOS Cloud, used internationally across the UK, Europe, Asia, India, and Australia',
     responsibilities: [
       'Define product strategy and vision for EOS Cloud platform aligned with business objectives',
@@ -30,7 +30,7 @@ const jobs = [
     title: 'Senior Business Analyst',
     company: 'Dyson',
     location: 'Bristol',
-    period: 'November 2019, September 2021',
+    period: 'November 2019 - September 2021',
     description: 'Lead BA on Digital Experience Platform',
     responsibilities: [
       'Worked directly with Product Owners to define a strategic roadmap across two key DXPE verticals: Payments & Fraud, and Owner Experience',
@@ -47,7 +47,7 @@ const jobs = [
     title: 'Lead Business Analyst, Retail IT Manager',
     company: 'Dyson',
     location: 'Malmesbury, Bristol',
-    period: 'September 2016, September 2021',
+    period: 'September 2016 - September 2021',
     description: 'Led multiple major transformation initiatives',
     responsibilities: [
       'Built and scaled the DXP BA team from 4 to 16, recruiting 12 BAs across permanent, contractor, and in-market roles',
@@ -68,7 +68,7 @@ const jobs = [
     title: 'SAP CRM System Tester, Contact Centre Agent',
     company: 'Dyson',
     location: 'Bristol',
-    period: 'August 2013, 2017',
+    period: 'August 2013 - 2017',
     description: 'System testing and customer support roles',
     responsibilities: [
       'Reviewed and interpreted system design documents to inform test script creation and acceptance criteria',
