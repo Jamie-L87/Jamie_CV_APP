@@ -137,7 +137,7 @@ const jobs = [
 ];
 
 export default function WorkHistory() {
-  const [expandedId, setExpandedId] = useState(1);
+  const [expandedId, setExpandedId] = useState(null);
 
   const toggleExpand = (id) => {
     setExpandedId(expandedId === id ? null : id);
