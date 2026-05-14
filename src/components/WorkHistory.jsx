@@ -140,33 +140,10 @@ export default function WorkHistory() {
   const [expandedId, setExpandedId] = useState(null);
 
   const toggleExpand = (id) => {
-    // If currently expanded, just close it
     if (expandedId === id) {
       setExpandedId(null);
     } else {
-      // If switching from one job to another, close the old one first
-      if (expandedId !== null) {
-        setExpandedId(null);
-        // Wait for the close animation to complete, then open and scroll to new job
-        setTimeout(() => {
-          setExpandedId(id);
-          setTimeout(() => {
-            const header = document.querySelector(`[data-job-id="${id}"] .job-header`);
-            if (header) {
-              header.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }
-          }, 0);
-        }, 400);
-      } else {
-        // No job was open, so just open and scroll immediately
-        setExpandedId(id);
-        setTimeout(() => {
-          const header = document.querySelector(`[data-job-id="${id}"] .job-header`);
-          if (header) {
-            header.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          }
-        }, 0);
-      }
+      setExpandedId(id);
     }
   };
 
