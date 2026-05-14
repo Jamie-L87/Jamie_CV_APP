@@ -47,25 +47,38 @@ const jobs = [
     period: 'September 2016 - November 2019',
     description: 'Multiple Leadership Initiatives - Agile & Waterfall',
     responsibilities: [
-      'Dyson Link Mobile Application - Built a BA team of 2 and collaborated with UX, UI, and development teams to re-platform the Dyson Link mobile app',
-      'Worked directly with Product Owners to understand business and user requirements',
-      'Fed requirements into cross-functional teams to establish best practices and define the path forward',
-      'Helped build a reliable, intuitive, and modern mobile application enabling user account registration, product control, and data visualisations',
-      'Improved Dyson Link app rating from 2/5 to 4.4/5 stars through strategic requirements definition and stakeholder alignment',
-      '',
-      'Dyson Retail Store Roll-out - Took ownership of the Retail IT BA team, covering all store IT from hardware and infrastructure to bespoke ePos solutions',
-      'Enabled 10x store opening growth through standardised processes, delivering 30 global store openings in 2018',
-      'Researched legal and fiscal requirements across international markets to ensure reusable, scalable solutions',
-      'Empowered team to travel to market locations to understand local requirements and best practices',
-      'Produced comprehensive Playbook with commercial, group retail, and in-market teams, baselining all standard ePos functionality',
-      'Drove quicker and more efficient roll-out of standard solutions across new store locations globally',
-      '',
-      'Digital Experience Platform Leadership - Built and stabilised the DXP BA team from 4 to 16 members across permanent, contractor, and in-market roles',
-      'Recruited 12 business analysts and identified individual skills, placing team members in verticals and projects that best utilised their expertise',
-      'Worked with lead POs and stakeholders to drive vision and strategy for Dyson\'s major market websites',
-      'Redefined ways of working, transitioning the team from heavily waterfall approach to end-to-end SCRUM delivery',
-      'Skilled up BAs to perform end-to-end duties in agile delivery while preparing cross-functional and business teams for change',
-      'Worked with BA manager, delivery lead, and third-party delivery partners to establish agile practices across the team'
+      {
+        project: 'Dyson Link Mobile Application',
+        items: [
+          'Built a BA team of 2 and collaborated with UX, UI, and development teams to re-platform the Dyson Link mobile app',
+          'Worked directly with Product Owners to understand business and user requirements',
+          'Fed requirements into cross-functional teams to establish best practices and define the path forward',
+          'Helped build a reliable, intuitive, and modern mobile application enabling user account registration, product control, and data visualisations',
+          'Improved Dyson Link app rating from 2/5 to 4.4/5 stars through strategic requirements definition and stakeholder alignment'
+        ]
+      },
+      {
+        project: 'Dyson Retail Store Roll-out',
+        items: [
+          'Took ownership of the Retail IT BA team, covering all store IT from hardware and infrastructure to bespoke ePos solutions',
+          'Enabled 10x store opening growth through standardised processes, delivering 30 global store openings in 2018',
+          'Researched legal and fiscal requirements across international markets to ensure reusable, scalable solutions',
+          'Empowered team to travel to market locations to understand local requirements and best practices',
+          'Produced comprehensive Playbook with commercial, group retail, and in-market teams, baselining all standard ePos functionality',
+          'Drove quicker and more efficient roll-out of standard solutions across new store locations globally'
+        ]
+      },
+      {
+        project: 'Digital Experience Platform Leadership',
+        items: [
+          'Built and stabilised the DXP BA team from 4 to 16 members across permanent, contractor, and in-market roles',
+          'Recruited 12 business analysts and identified individual skills, placing team members in verticals and projects that best utilised their expertise',
+          'Worked with lead POs and stakeholders to drive vision and strategy for Dyson\'s major market websites',
+          'Redefined ways of working, transitioning the team from heavily waterfall approach to end-to-end SCRUM delivery',
+          'Skilled up BAs to perform end-to-end duties in agile delivery while preparing cross-functional and business teams for change',
+          'Worked with BA manager, delivery lead, and third-party delivery partners to establish agile practices across the team'
+        ]
+      }
     ],
     highlights: ['Mobile Development', 'Retail Operations', 'Team Leadership', 'Agile Transformation', 'Global Rollout']
   },
@@ -156,9 +169,23 @@ export default function WorkHistory() {
                   <div className="responsibilities">
                     <h4>Key Responsibilities</h4>
                     <ul>
-                      {job.responsibilities.map((resp, idx) => (
-                        <li key={idx}>{resp}</li>
-                      ))}
+                      {job.responsibilities.map((resp, idx) => {
+                        // Handle structured projects (objects with project name and items)
+                        if (typeof resp === 'object' && resp.project) {
+                          return (
+                            <div key={idx} className="responsibility-project">
+                              <p style={{ fontWeight: 'bold', marginTop: '1rem', marginBottom: '0.5rem' }}>{resp.project}</p>
+                              <ul>
+                                {resp.items.map((item, itemIdx) => (
+                                  <li key={itemIdx}>{item}</li>
+                                ))}
+                              </ul>
+                            </div>
+                          );
+                        }
+                        // Handle simple string responsibilities
+                        return <li key={idx}>{resp}</li>;
+                      })}
                     </ul>
                   </div>
                   <div className="highlights-badges">
