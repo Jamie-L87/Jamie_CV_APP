@@ -12,7 +12,7 @@ const jobs = [
     responsibilities: [
       'Define product strategy and vision for EOS Cloud platform aligned with business objectives',
       'Conduct requirements elicitation with stakeholders across dealerships and internal teams',
-      'Analyze business processes and identify optimization opportunities for efficiency gains',
+      'Analyse business processes and identify optimisation opportunities for efficiency gains',
       'Create detailed user stories and acceptance criteria for development team',
       'Oversee sprint-to-sprint activities and manage cross-functional delivery team',
       'Facilitate workshops for requirements gathering, process mapping, and solution design',
@@ -21,7 +21,7 @@ const jobs = [
       'Manage SCRUM and QA activities by proxy, ensuring quality standards',
       'Collaborate extensively with dealership network stakeholders to understand needs',
       'Document business rules, system workflows, and process improvements',
-      'Implement processes for defect resolution, change management, and workflow optimization'
+      'Implement processes for defect resolution, change management, and workflow optimisation'
     ],
     highlights: ['Strategic Leadership', 'Business Analysis', 'Requirements Gathering', 'Stakeholder Management', 'Agile']
   },
