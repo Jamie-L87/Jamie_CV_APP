@@ -141,6 +141,16 @@ export default function WorkHistory() {
 
   const toggleExpand = (id) => {
     setExpandedId(expandedId === id ? null : id);
+    
+    // Scroll the job header into view smoothly
+    if (expandedId !== id) {
+      setTimeout(() => {
+        const element = document.querySelector(`[data-job-id="${id}"]`);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 0);
+    }
   };
 
   return (
@@ -149,7 +159,7 @@ export default function WorkHistory() {
         <h2 className="section-title">Work Experience</h2>
         <div className="timeline">
           {jobs.map((job) => (
-            <div key={job.id} className="timeline-item">
+            <div key={job.id} className="timeline-item" data-job-id={job.id}>
               <div className="timeline-marker"></div>
               <div className="timeline-content">
                 <div className="job-header" onClick={() => toggleExpand(job.id)}>

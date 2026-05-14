@@ -99,26 +99,18 @@
 }
 
 .job-details {
-  display: none;
-  margin-top: 1rem;
+  max-height: 0;
+  opacity: 0;
+  margin-top: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease, margin-top 0.4s ease;
 }
 
 .job-details--open {
-  display: block;
-  animation: slideDown 0.3s ease-out;
-}
-
-@keyframes slideDown {
-  from {
-    opacity: 0;
-    max-height: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    max-height: 1000px;
-    transform: translateY(0);
-  }
+  max-height: 2000px;
+  opacity: 1;
+  margin-top: 1rem;
+  transition: max-height 0.4s ease, opacity 0.4s ease, margin-top 0.4s ease;
 }
 
 .job-description {
