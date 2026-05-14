@@ -144,16 +144,29 @@ export default function WorkHistory() {
     if (expandedId === id) {
       setExpandedId(null);
     } else {
-      // Opening a new job - scroll and expand happen in parallel
-      setExpandedId(id);
-      // Minimal delay for state to update before scroll begins
-      setTimeout(() => {
-        const header = document.querySelector(`[data-job-id="${id}"] .job-header`);
-        if (header) {
-          // Scroll in parallel with animation
-          header.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
-      }, 0);
+      // If switching from one job to another, close the old one first
+      if (expandedId !== null) {
+        setExpandedId(null);
+        // Wait for the close animation to complete, then open and scroll to new job
+        setTimeout(() => {
+          setExpandedId(id);
+          setTimeout(() => {
+            const header = document.querySelector(`[data-job-id="${id}"] .job-header`);
+            if (header) {
+              header.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+          }, 0);
+        }, 400);
+      } else {
+        // No job was open, so just open and scroll immediately
+        setExpandedId(id);
+        setTimeout(() => {
+          const header = document.querySelector(`[data-job-id="${id}"] .job-header`);
+          if (header) {
+            header.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+        }, 0);
+      }
     }
   };
 
