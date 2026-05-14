@@ -19,7 +19,7 @@ export default function About() {
           <ul className="highlights">
             <li>Improved Dyson Link mobile app rating from 2/5 to 4.4/5 stars through strategic re-platforming</li>
             <li>Scaled retail IT operations by 10x, enabling 30 global store openings in 2018</li>
-            <li>Built and stabilized a BA team from 4 to 16 members across multiple verticals</li>
+            <li>Built and stabilised a BA team from 4 to 16 members across multiple verticals</li>
             <li>Led digital experience platform initiatives serving millions of users globally</li>
             <li>Implemented SAP CRM globally across the UK, Ireland, USA, Canada, and Japan</li>
           </ul>
