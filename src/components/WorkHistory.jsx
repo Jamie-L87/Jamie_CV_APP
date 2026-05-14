@@ -144,16 +144,16 @@ export default function WorkHistory() {
     if (expandedId === id) {
       setExpandedId(null);
     } else {
-      // Opening a new job - scroll to its header after animation completes
+      // Opening a new job - scroll and expand happen in parallel
       setExpandedId(id);
-      // Wait for animation to complete (0.4s) before scrolling
+      // Minimal delay for state to update before scroll begins
       setTimeout(() => {
         const header = document.querySelector(`[data-job-id="${id}"] .job-header`);
         if (header) {
-          // Use 'center' to keep header visible even with expanding content below
+          // Scroll in parallel with animation
           header.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
-      }, 400);
+      }, 0);
     }
   };
 
