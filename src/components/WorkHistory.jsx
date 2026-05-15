@@ -156,19 +156,24 @@ export default function WorkHistory() {
             <div key={job.id} className="timeline-item" data-job-id={job.id}>
               <div className="timeline-marker"></div>
               <div className="timeline-content">
-                <div className="job-header" onClick={() => toggleExpand(job.id)}>
-                  <div className="job-title-group">
-                    <h3 className="job-title">{job.title}</h3>
-                    <p className="job-company">{job.company}</p>
-                  </div>
-                  <div className="job-meta">
-                    <p className="job-period">{job.period}</p>
-                    <span className="expand-icon">{expandedId === job.id ? '−' : '+'}</span>
-                  </div>
+              <button 
+                className="job-header" 
+                onClick={() => toggleExpand(job.id)}
+                aria-expanded={expandedId === job.id}
+                aria-controls={`job-details-${job.id}`}
+              >
+                <div className="job-title-group">
+                  <h3 className="job-title">{job.title}</h3>
+                  <p className="job-company">{job.company}</p>
                 </div>
+                <div className="job-meta">
+                  <p className="job-period">{job.period}</p>
+                  <span className="expand-icon" aria-hidden="true">{expandedId === job.id ? '−' : '+'}</span>
+                </div>
+              </button>
 
                 {/* Always render job-details; CSS shows all on print */}
-                <div className={`job-details${expandedId === job.id ? ' job-details--open' : ''}`}>
+                <div className={`job-details${expandedId === job.id ? ' job-details--open' : ''}`} id={`job-details-${job.id}`}>
                   <p className="job-description">{job.description}</p>
                   <div className="responsibilities">
                     <h4>Key Responsibilities</h4>
@@ -177,14 +182,14 @@ export default function WorkHistory() {
                         // Handle structured projects (objects with project name and items)
                         if (typeof resp === 'object' && resp.project) {
                           return (
-                            <div key={idx} className="responsibility-project">
+                            <li key={idx} className="responsibility-project">
                               <p style={{ fontWeight: 'bold', marginTop: '1rem', marginBottom: '0.5rem' }}>{resp.project}</p>
                               <ul>
                                 {resp.items.map((item, itemIdx) => (
                                   <li key={itemIdx}>{item}</li>
                                 ))}
                               </ul>
-                            </div>
+                            </li>
                           );
                         }
                         // Handle simple string responsibilities
