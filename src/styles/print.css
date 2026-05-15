@@ -84,6 +84,9 @@
   .job-details,
   .job-details--open {
     display: block !important;
+    max-height: none !important;
+    opacity: 1 !important;
+    margin-top: 1rem !important;
   }
 
   /* Timeline items */
